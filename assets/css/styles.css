@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2f2f2;
+}
+
+body a {
+	/*color: #FEA533;*/
+	color: #C87811;
+	text-decoration: none;
+}
+
+body a:hover {
+	color: #FEA533;
+}
+
+h1,h2,h3 {
+	font-family: "Oswald";
+	letter-spacing: 1px;
+	margin: 8px 0;
+}
+
+header {
+	background-color: #2C2C2C;
+	color: #EDEDED;
+	padding: 20px;
+	padding-left: 160px;
+	margin-bottom: 40px;
+}
+
+article {
+	padding: 10px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+figure img{
+	margin: 0 auto;
+}
+
+figcaption {
+	margin-bottom: 40px; 
+	font-family: "Amiri";
+}
+
+p {
+	margin-bottom: 26px;
+	font-family: "Amiri";
+}
+
+ul {
+	list-style: none;
+	margin-bottom: 40px;
+}
+ul li {
+	margin-bottom: 12px;
+	font-family: "Amiri";
+	line-height: 16px;
+}
+
+hr {
+	margin: 50px 0;
+}
+
+/*Form & Fieldset*/
+
+#newsletter {
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	margin-bottom: 50px;
+	border: 0px solid #2c2c2c;
+}
+
+#newsletter legend {
+	font-size: 1.5em;
+	margin: 0 20px;
+	font-family: "Oswald";
+	letter-spacing: 1px;
+}
+
+#newsletter p {
+	display: inline;
+}
+
+#newsletter .info input {
+	margin-bottom: 5px;
+}
+
+#newsletter .info, 
+#newsletter .continent, 
+#newsletter .survey,
+#newsletter .comment {
+	width: 250px;
+	margin: 20px;
+}
+
+#newsletter .survey {
+	width: 300px;
+}
+
+#newsletter .fs-submit, #btt {
+	margin-left: 20px;
+	width: 90px;
+	height: 30px;
+	background-color: #C87811;
+	border: none;
+	color: #fff;
+	font-family: "Amiri";
+	font-size: 18px;
+	transition: 0.3s;
+}
+
+#newsletter .fs-submit:hover {
+	color: #000;
+	background-color: #f2f2f2;
+	border: 1px solid #000;
+	transition: 0.3s;
+}
+
+
+
+footer {
+	height: 100%;
+	width: 100%;
+	background-color: #2C2C2C;
+	color: #EDEDED;
+	padding-top: 40px;
+	text-align: center;
+}
+
+footer p {
+	margin: 10px 0;
+}
+
+#btt {
+	margin-left: 0;
+	height: 20px;
+	font-size: 12px;
+}
